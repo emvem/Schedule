@@ -9,12 +9,18 @@ import SwiftUI
 
 @main
 struct ScheduleApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            TasksView()
         }
     }
+//    let persistenceController = PersistenceController.shared
+//
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+//        }
+//    }
 }
