@@ -17,6 +17,7 @@
 		13EA7489287592DA003E43B7 /* ScheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA7488287592DA003E43B7 /* ScheduleUITests.swift */; };
 		13EA748B287592DA003E43B7 /* ScheduleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA748A287592DA003E43B7 /* ScheduleUITestsLaunchTests.swift */; };
 		13EA74982875937B003E43B7 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA74972875937B003E43B7 /* TasksView.swift */; };
+		13EA749A287595B2003E43B7 /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EA7499287595B2003E43B7 /* TaskTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		13EA7488287592DA003E43B7 /* ScheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleUITests.swift; sourceTree = "<group>"; };
 		13EA748A287592DA003E43B7 /* ScheduleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		13EA74972875937B003E43B7 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		13EA7499287595B2003E43B7 /* TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				13EA747E287592DA003E43B7 /* ScheduleTests.swift */,
+				13EA7499287595B2003E43B7 /* TaskTests.swift */,
 			);
 			path = ScheduleTests;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13EA749A287595B2003E43B7 /* TaskTests.swift in Sources */,
 				13EA747F287592DA003E43B7 /* ScheduleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
